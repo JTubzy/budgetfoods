@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_grounds_budget_foods_color_02"
+    tools:context=".about">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="About Us"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:clickable="true"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Privacy Policy"
+        android:textColorLink="#148CC1"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Terms and Conditions"
+        android:textColorLink="#148CC1"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="221dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
